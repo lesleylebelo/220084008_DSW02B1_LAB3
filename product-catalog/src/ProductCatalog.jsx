@@ -4,7 +4,7 @@ import './ProductCatalog.css';
 const productList = 'https://fakestoreapi.com/products';
 
 function ProductCatalog() {
-  // full product list 
+  
   const [products, setProducts] = useState([]);
   const [searchQuery, setSearchQuery] = useState('');
   const [loading, setLoading] = useState(true);
